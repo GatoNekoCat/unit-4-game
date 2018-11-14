@@ -1,6 +1,6 @@
 # Dragonball RPG
 A Dragon Ball themed RPG
-elements
+    elements
             intro-screen
                 title img display
                 music player
