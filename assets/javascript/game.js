@@ -45,7 +45,8 @@ enemies = [
         level: 9,
         damage: 2.4,
         speed: 4,
-        image: "assets/images/friezamad.png"
+        image: "assets/images/friezamad.png",
+        id: "frieza",
         // assets\images\friezamad.png
         // characterSelectSoundByte:
         // defeatSoundByte:
@@ -58,6 +59,8 @@ enemies = [
         level: 10,
         damage: 2.5,
         speed: 5,
+        image: "assets/images/android.png",
+        id: 1,
         // characterSelectSoundByte:
         // defeatSoundByte:
         // victorySoundByte:
@@ -69,6 +72,8 @@ enemies = [
         level: 11,
         damage: 3,
         speed: 5,
+        image: "assets/images/cell.png",
+        id: 2,
     }
 ]
 // document.ready shorthand
@@ -97,7 +102,6 @@ $("#char1").click(function(){
     $("#vegeta").hide(1000);
     
     $("#yamcha").hide(1000);
-    $("#goku").animate({ left: "0", bottom: "0"});
     gameState.gameStart();
 
 })
@@ -132,11 +136,13 @@ var gameState = {
 
     },
     loadEnemy: function() {
+        $("#characterheader").remove();
 
         gameState.enemy = enemies[gameState.enemyNum];
         console.log(gameState.enemy);
         var imgTag = $("<img>");
         imgTag.attr("src", gameState.enemy.image);
+        imgTag.attr("id", gameState.enemy[gameState.enemy.id]);
         $("#enemyF").append(imgTag);
 
         

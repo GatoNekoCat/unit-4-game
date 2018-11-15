@@ -1,18 +1,18 @@
-#titleDiv {
-  max-width: 80%;
-  max-height: 80%;
-  display:none;
+#enemyF {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 25%;
+  max-height: 25%;
 }
 #titleImage {
-  max-width: 80%;
+  max-width: 65%;
   max-height: 80%;
   display: none;
 }
-/* #titleImage {
-  display: none;
-
-
-} */
+.inner-cover{
+  position: relative;
+}
 #characterheader
   {
     font-size: 5rem;
@@ -28,33 +28,30 @@
 
 }
 #goku {
-  margin-top: 80px;
   height: 300px;
-  width: 286px;
-  margin-right: 69px;
+  width: 250px;
   display:none;
+  float: left;
 }
 
 
 #vegeta {
-  margin-top: 80px;
   height: 300px;
-  width: 286px;
-  margin-right: 69px;
+  width: 250px;
   display:none;
+  clear: both;
 
 }
 #yamcha{
-  margin-top: 80px;
   height: 300px;
-  width: 286px;
-  margin-right: 69px;
+  width: 250px;
   display:none;
+  float: right;
 
 }
-
+/* 
  * Globals
- */
+ */ */
 
 /* Links */
 a,
