@@ -1,10 +1,58 @@
-/* My own css */
-img {
+#titleDiv {
   max-width: 80%;
   max-height: 80%;
+  display:none;
+}
+#titleImage {
+  max-width: 80%;
+  max-height: 80%;
+  display: none;
+}
+/* #titleImage {
+  display: none;
+
+
+} */
+#characterheader
+  {
+    font-size: 5rem;
+    margin-top: 77px;
+    display: none;
 }
 
-/* This is from the cover example of bootstrap.
+
+#characters {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+#goku {
+  margin-top: 80px;
+  height: 300px;
+  width: 286px;
+  margin-right: 69px;
+  display:none;
+}
+
+
+#vegeta {
+  margin-top: 80px;
+  height: 300px;
+  width: 286px;
+  margin-right: 69px;
+  display:none;
+
+}
+#yamcha{
+  margin-top: 80px;
+  height: 300px;
+  width: 286px;
+  margin-right: 69px;
+  display:none;
+
+}
+
  * Globals
  */
 

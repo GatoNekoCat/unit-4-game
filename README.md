@@ -17,6 +17,15 @@ A Dragon Ball themed RPG
 
 
               each turn:
+
+                roll a random number * speed for player and enemy and compare, winners turn is first
+
+                attack damage is calculated by generating a random number in the range of character level and multiplying it by the damage attribute.
+
+                defending reduces damage taken by half, but only if they are quick enough, as determined by initial speed roll.
+
+                charging will give a character increased damage on the next turn. 
+
                 if character health is equal to or below 0 then
                     character defeat soundbyte plays
                     after soundbyte is over , display Game Over in the middle of the screen followed underneath with "Play again?" and a button to press to try again or return to the title screen.
